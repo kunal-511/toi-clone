@@ -31,12 +31,24 @@ const Entertainment: React.FC<EntertainmentProps> = ({
               </p>
             </div>
             <div>
-              <News />
-              <News />
+              <News
+                text="Lorem ipsum  dolor sit consectetur."
+                imageUrl="{img}"
+              />
+              <News
+                text="Lorem ipsum  dolor sit consectetur."
+                imageUrl="{img}"
+              />
             </div>
             <div>
-              <News />
-              <News />
+              <News
+                text="Lorem ipsum  dolor sit consectetur."
+                imageUrl="{img}"
+              />
+              <News
+                text="Lorem ipsum  dolor sit consectetur."
+                imageUrl="{img}"
+              />
             </div>
           </section>
           <section className="column bulletin">
@@ -50,16 +62,34 @@ const Entertainment: React.FC<EntertainmentProps> = ({
             </h3>
             <div className="etimesPhotos">
               <div>
-                <News />
-                <News />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
               </div>
               <div>
-                <News />
-                <News />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
               </div>
               <div className="mediaQuery">
-                <News />
-                <News />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
+                <News
+                  text="Lorem ipsum  dolor sit consectetur."
+                  imageUrl="{img}"
+                />
               </div>
             </div>
 

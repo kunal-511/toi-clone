@@ -10,32 +10,32 @@ const EntertainmentPart2: React.FC = () => {
       <div className="spotlight">
         <div className="top">
           <h3>lorem</h3>
-          <News />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
         <div className="top">
           <h3>lorem</h3>
-          <News />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
         <div className="top">
           <h3>lorem</h3>
-          <News />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
       </div>
       <section className="entertainmentPart2">
         <div className="container">
-          <News2 />
-          <News2 />
-          <News2 />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
         <div className="container">
-          <News2 />
-          <News2 />
-          <News2 />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
         <div className="container">
-          <News2 />
-          <News2 />
-          <News2 />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
         </div>
       </section>
       <section className="horizontalContainer">
@@ -58,7 +58,7 @@ const EntertainmentPart2: React.FC = () => {
           </div>
         </div>
       </section>
-      <InFocus />
+      <InFocus inFocusItems1="inFocusItems" inFocusItems2="inFocusItems" inFocusItems3="inFocusItems" inFocusItems4="inFocusItems" inFocusItems5="inFocusItems" inFocusItems6={null} inFocusItems7={null} />
     </>
   );
 };

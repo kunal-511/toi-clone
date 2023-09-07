@@ -14,22 +14,18 @@ interface SportsProps {
   newsBulletin4: string;
   newsBulletin5: string;
   newsTypeHeading: string;
-  imageText: string;
-  specificNewsTitle1: string;
-  specificNewsTitle2: string;
-  specificNewsTitle3: string;
-  specificNewsTitle4: string;
+
+  specificNewsTitle1: string | null;
+  specificNewsTitle2: string | null;
+  specificNewsTitle3: string | null;
+  specificNewsTitle4: string | null;
 }
 
 const Sports: React.FC<SportsProps> = ({
   newsImageUrl,
-  newsBulletin1,
-  newsBulletin2,
-  newsBulletin3,
-  newsBulletin4,
-  newsBulletin5,
+
   newsTypeHeading,
-  imageText,
+ 
   specificNewsTitle1,
   specificNewsTitle2,
   specificNewsTitle3,
@@ -54,29 +50,23 @@ const Sports: React.FC<SportsProps> = ({
                 {/* <p>{imageText}</p> */}
               </div>
               <div className="bulletin">
-                <Bulletin
-                  BulletinItem4={newsBulletin1}
-                  BulletinItem5={newsBulletin2}
-                  BulletinItem6={newsBulletin3}
-                  BulletinItem7={newsBulletin4}
-                  BulletinItem8={newsBulletin5}
-                />
+                <Bulletin />
               </div>
             </div>
             <div className="sportsVideos">
-              <News />
-              <News />
-              <News />
-              <News />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
             </div>
           </div>
           <span className="vertical-line2"></span>
           <div className="sportsBulletin">
-            <News2 />
-            <News2 />
-            <News2 />
-            <News2 />
-            <News2 />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
         </section>
       </section>

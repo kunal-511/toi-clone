@@ -9,12 +9,12 @@ const Row: React.FC<RowProps> = ({ rowHeading }) => {
     <section className="row">
       <h2>{rowHeading}</h2>
       <div>
-        <News />
-        <News />
-        <News />
-        <News />
-        <News />
-        <News />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+       <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
       </div>
     </section>
   );

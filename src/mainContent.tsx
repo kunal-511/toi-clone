@@ -18,8 +18,8 @@ const MainContent: React.FC = () => {
       <MainNews />
       <NewsSection />
 
-      <Spotlight />
-      <Entertainment />
+      <Spotlight spotlightHeading="spotlight"/>
+      <Entertainment entertainmentHeading="entertainment"/>
       <InFocus
         inFocusItems1="sridevi"
         inFocusItems2="keerthy suresh"
@@ -34,7 +34,7 @@ const MainContent: React.FC = () => {
         <div className="dotted-line"></div>
       </div>
 
-      <Row />
+      <Row rowHeading="row" />
       <City />
       <Lifestyle />
       <Lifestyle />
@@ -57,9 +57,9 @@ const MainContent: React.FC = () => {
 
       <EntertainmentPart2 />
       <Row rowHeading="Shopping Destination" />
-      <InFocus />
+      <InFocus inFocusItems1="inFocusItems" inFocusItems2="inFocusItems" inFocusItems3="inFocusItems" inFocusItems4="inFocusItems" inFocusItems5="inFocusItems" inFocusItems6= "inFocusItems" inFocusItems7="infocusItems"/>
       <Sports
-        imageText="India squad:'Batting depth' is Buzzword"
+
         newsTypeHeading="Sports"
         newsBulletin1="World Cup: Fans scamper for the elusiv"
         newsBulletin2="US Open: Bopanna-Edben after men's"
@@ -70,6 +70,7 @@ const MainContent: React.FC = () => {
         specificNewsTitle2="Football"
         specificNewsTitle3="Tennis"
         specificNewsTitle4="hockey"
+        newsImageUrl="https://static.toiimg.com/thumb/imgsize-47806,msid-103427576,width-600,resizemode-4/103427576.jpg"
       />
       <InFocus
         inFocusItems1="us open2023"
@@ -79,16 +80,22 @@ const MainContent: React.FC = () => {
         inFocusItems5="asia cup 2023"
         inFocusItems6="new zeland vs england"
         inFocusItems7={null}
+      
       />
       <VisualStories />
       <Sports
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-47806,msid-103427576,width-600,resizemode-4/103427576.jpg"
-        imageText="TikTok may be planning to be your new messaging app"
+      
         newsTypeHeading="Tech"
         specificNewsTitle1="Videos"
         specificNewsTitle2="slideShow"
         specificNewsTitle3="Gadget news"
         specificNewsTitle4="AI"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <InFocus
         inFocusItems1="amazon ceo warning"
@@ -101,12 +108,17 @@ const MainContent: React.FC = () => {
       />
       <Sports
         newsTypeHeading="Business"
-        imageText="What is UPI ATM? FAQs"
+
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-22292,msid-103429078,width-600,resizemode-4/103429078.jpg"
         specificNewsTitle1="india"
         specificNewsTitle2="International"
         specificNewsTitle3="videos"
         specificNewsTitle4="banking"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <InFocus
         inFocusItems1="bank holidays in september"
@@ -115,15 +127,21 @@ const MainContent: React.FC = () => {
         inFocusItems4="nifty50"
         inFocusItems5="crytocureency"
         inFocusItems6="Stocks"
+        inFocusItems7={null}
       />
       <Sports
         newsTypeHeading="World"
-        imageText="The death toll from fierce storms and flooding in Greece"
+      
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-1324416,msid-103427744,width-600,resizemode-4/103427744.jpg"
         specificNewsTitle1="us"
         specificNewsTitle2="Uk"
         specificNewsTitle3="videos"
         specificNewsTitle4="middle east"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <InFocus
         inFocusItems1="pakistan news"
@@ -134,31 +152,71 @@ const MainContent: React.FC = () => {
         inFocusItems6="us election"
         inFocusItems7={null}
       />
-      <Sports newsTypeHeading="From Across Toi" />
+      <Sports newsTypeHeading="From Across Toi"
+       newsBulletin1="World Cup: Fans scamper for the elusiv"
+       newsBulletin2="US Open: Bopanna-Edben after men's"
+       newsBulletin3="US Open: Djokovic beats Frizz to enter"
+       newsBulletin4="Messi Back on Argentina duty as 2026"
+       newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
+       specificNewsTitle1={null}
+       specificNewsTitle2={null}
+       specificNewsTitle3={null}
+       specificNewsTitle4={null}
+       newsImageUrl="https://static.toiimg.com/thumb/imgsize-102254,msid-103420922,width-600,resizemode-4/103420922.jpg"
+      />
       <Row rowHeading="Sponsored Stories" />
       <Sports
         newsTypeHeading="Travel"
-        imageText="Photos that bring out the beauty of Chhattisgarh"
+        specificNewsTitle1={null}
+        specificNewsTitle2={null}
+        specificNewsTitle3={null}
+        specificNewsTitle4={null}
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-102254,msid-103420922,width-600,resizemode-4/103420922.jpg"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <Sports
         newsTypeHeading="Recipes & Food News"
-        imageText="Food rules to follow while fasting"
+        specificNewsTitle4={null}
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-47150,msid-103407078,width-600,resizemode-4/103407078.jpg"
         specificNewsTitle1="recipes"
         specificNewsTitle2="food news"
         specificNewsTitle3="recipe videos"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <Sports
         newsTypeHeading="Health & Fitness"
-        imageText="Lessons from 97 yr old fitness inspiration"
+        specificNewsTitle1={null}
+        specificNewsTitle2={null}
+        specificNewsTitle3={null}
+        specificNewsTitle4={null}
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-35800,msid-103386254,width-600,resizemode-4/103386254.jpg"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <Row rowHeading="Telivision Highlights" />
       <Sports
         newsTypeHeading="Auto"
-        imageText="TVS Apache RTR 310 India launch Live Updates"
+        specificNewsTitle1={null}
+        specificNewsTitle2={null}
+        specificNewsTitle3={null}
+        specificNewsTitle4={null}
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-1254304,msid-103426210,width-600,resizemode-4/103426210.jpg"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <InFocus
         inFocusItems1="volvo s60 review"
@@ -172,12 +230,17 @@ const MainContent: React.FC = () => {
 
       <Sports
         newsTypeHeading="Education"
-        imageText="Bullying at School: What Parents Can Do"
+
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-27536,msid-103425376,width-600,resizemode-4/103425376.jpg"
         specificNewsTitle1="jobs"
         specificNewsTitle2="admission"
         specificNewsTitle3="results"
         specificNewsTitle4="learning with toi"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <InFocus
         inFocusItems1="bitsat exam"
@@ -194,12 +257,17 @@ const MainContent: React.FC = () => {
       </div>
       <Sports
         newsTypeHeading="Opinion And Features"
-        imageText="Does India link us to our British rulers or "
+
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-1280481,msid-103416978,width-600,resizemode-4/103416978.jpg"
         specificNewsTitle1="times view"
         specificNewsTitle2="readers's blog"
         specificNewsTitle3="foreign media"
         specificNewsTitle4="Q&a"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <div className="double-line">
         <div className="dotted-line"></div>
@@ -207,8 +275,16 @@ const MainContent: React.FC = () => {
       </div>
       <Sports
         newsTypeHeading="Citizen Reporter"
-        imageText="Overflow of drain"
+        specificNewsTitle1={null}
+        specificNewsTitle2={null}
+        specificNewsTitle3={null}
+        specificNewsTitle4={null}
         newsImageUrl="https://static.toiimg.com/thumb/imgsize-295248,msid-81541286,width-600,resizemode-4/81541286.jpg"
+        newsBulletin1="World Cup: Fans scamper for the elusiv"
+        newsBulletin2="US Open: Bopanna-Edben after men's"
+        newsBulletin3="US Open: Djokovic beats Frizz to enter"
+        newsBulletin4="Messi Back on Argentina duty as 2026"
+        newsBulletin5="Asia Cup: Did minsinformation cost Afganistan a plac"
       />
       <div className="double-line">
         <div className="dotted-line"></div>

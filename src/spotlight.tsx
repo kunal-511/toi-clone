@@ -11,9 +11,9 @@ const Spotlight: React.FC<Spotlight> = ({ spotlightHeading }) => {
         <h2>{spotlightHeading}</h2>
       </div>
       <div className="spotlight">
-        <News />
-        <News />
-        <News />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
       </div>
     </>
   );

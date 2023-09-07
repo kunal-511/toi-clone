@@ -13,8 +13,8 @@ const LifestyleCard: React.FC<LifestyleCardProps> = ({lifestyleCardHeading}) => 
     <p>{lifestyleCardHeading}</p>
     <img src={img} className='healthImg' alt="" />
     <div className='healthNews' >
-        <News />
-        <News />
+    <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+    <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
     </div>
 </div>
   );

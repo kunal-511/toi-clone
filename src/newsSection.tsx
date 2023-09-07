@@ -15,14 +15,14 @@ const NewsSection: React.FC = () => {
               </h2>
             </div>
             <div className="news">
-              <News2 />
+            <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
             </div>
           </div>
           <div className="dotted-line"></div>
           <div className="Hstack">
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
 
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
         </section>
 
@@ -33,13 +33,13 @@ const NewsSection: React.FC = () => {
             </h2>
           </div>
           <div className="news">
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
           <div className="dotted-line"></div>
           <div className="Hstack">
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
 
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
         </section>
 
@@ -50,14 +50,14 @@ const NewsSection: React.FC = () => {
             </h2>
           </div>
           <div className="news">
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
           <div className="dotted-line"></div>
 
           <div className="Hstack">
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
 
-            <News2 />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
           </div>
         </section>
       </section>

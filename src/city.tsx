@@ -12,7 +12,7 @@ const City: React.FC<CityProps> = () => {
   return (
     <>
       <section className="city">
-        <Title titleHeading="Delhi" cityHead={true} />
+        <Title titleHeading="Delhi" cityHead={true} titleItem1={null} titleItem2={null} titleItem3={null} titleItem4={null} />
         <section className="content">
           <div className="part1">
             <div className="row1">
@@ -22,13 +22,13 @@ const City: React.FC<CityProps> = () => {
               </div>
             </div>
             <div className="row2">
-              <News />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
               <span className="vertical-line"></span>
-              <News />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
               <span className="vertical-line"></span>
-              <News />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
               <span className="vertical-line"></span>
-              <News />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
             </div>
           </div>
           <span className="vertical-line2"></span>

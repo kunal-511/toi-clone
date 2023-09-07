@@ -1,5 +1,6 @@
 import React from "react";
 import News from "./news";
+
 import { AiOutlineRight } from "react-icons/ai";
 interface BlogsProps {
   blogsHeading: string;
@@ -17,9 +18,10 @@ const Summary: React.FC<BlogsProps> = ({ blogsHeading }) => {
         />
       </div>
       <div className="blogsContent">
-        <News />
-        <News />
-        <News />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        
       </div>
     </div>
   );
