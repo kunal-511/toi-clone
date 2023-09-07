@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainNews.scss";
-
+import img from "./assets/news.png";
 import News from "./news";
 import { BiPlusMedical } from "react-icons/bi";
 import Advertisement from "./advertisment";
@@ -29,67 +29,67 @@ const MainNews: React.FC = () => {
           </div>
           <main>
             <section>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
             </section>
             <section>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <div className="dotted-line"></div>
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
             </section>
           </main>
         </div>
         <span className="vertical-line"></span>
         <div className="column2">
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img}/>
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
         <span className="vertical-line"></span>
         <div className="column3">
@@ -105,10 +105,10 @@ const MainNews: React.FC = () => {
             </div>
             <span className="bold">Read in-depth stories by experts</span>
 
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
 
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
           <div className="bulletin">
             <Bulletin />

@@ -5,6 +5,7 @@ import Bulletin from "./bulletin";
 import News2 from "./News2";
 import News from "./news";
 import Title from "./title";
+import img from "./assets/news.png";
 
 interface SportsProps {
   newsImageUrl: string;
@@ -54,19 +55,19 @@ const Sports: React.FC<SportsProps> = ({
               </div>
             </div>
             <div className="sportsVideos">
-             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-             <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+             <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
             </div>
           </div>
           <span className="vertical-line2"></span>
           <div className="sportsBulletin">
-           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+           <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
         </section>
       </section>

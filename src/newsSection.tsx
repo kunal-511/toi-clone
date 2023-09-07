@@ -1,6 +1,7 @@
 import React from "react";
 import "./NewsSection.scss";
 import { AiOutlineRight } from "react-icons/ai";
+import img from "./assets/news.png";
 import News2 from "./News2";
 const NewsSection: React.FC = () => {
   return (
@@ -15,14 +16,14 @@ const NewsSection: React.FC = () => {
               </h2>
             </div>
             <div className="news">
-            <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
             </div>
           </div>
           <div className="dotted-line"></div>
           <div className="Hstack">
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
 
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
         </section>
 
@@ -33,13 +34,13 @@ const NewsSection: React.FC = () => {
             </h2>
           </div>
           <div className="news">
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
           <div className="dotted-line"></div>
           <div className="Hstack">
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
 
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
         </section>
 
@@ -50,14 +51,14 @@ const NewsSection: React.FC = () => {
             </h2>
           </div>
           <div className="news">
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
           <div className="dotted-line"></div>
 
           <div className="Hstack">
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
 
-          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
           </div>
         </section>
       </section>

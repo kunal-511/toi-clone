@@ -7,6 +7,7 @@ import Advertisement from "./advertisment";
 import Row from "./row";
 import News from "./news";
 import Title from "./title";
+
 interface CityProps {}
 const City: React.FC<CityProps> = () => {
   return (
@@ -22,13 +23,13 @@ const City: React.FC<CityProps> = () => {
               </div>
             </div>
             <div className="row2">
-            <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+            <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <span className="vertical-line"></span>
-              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <span className="vertical-line"></span>
-              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
               <span className="vertical-line"></span>
-              <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+              <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
             </div>
           </div>
           <span className="vertical-line2"></span>

@@ -4,6 +4,7 @@ import News from "./news";
 import Bulletin from "./bulletin";
 import Advertisement from "./advertisment";
 import { AiOutlineRight } from "react-icons/ai";
+import img from "./assets/news.png";
 interface EntertainmentProps {
   entertainmentHeading: string;
 }
@@ -33,21 +34,21 @@ const Entertainment: React.FC<EntertainmentProps> = ({
             <div>
               <News
                 text="Lorem ipsum  dolor sit consectetur."
-                imageUrl="{img}"
+                imageUrl={img}
               />
               <News
                 text="Lorem ipsum  dolor sit consectetur."
-                imageUrl="{img}"
+                imageUrl={img}
               />
             </div>
             <div>
               <News
                 text="Lorem ipsum  dolor sit consectetur."
-                imageUrl="{img}"
+                imageUrl={img}
               />
               <News
                 text="Lorem ipsum  dolor sit consectetur."
-                imageUrl="{img}"
+                imageUrl={img}
               />
             </div>
           </section>
@@ -64,31 +65,31 @@ const Entertainment: React.FC<EntertainmentProps> = ({
               <div>
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
               </div>
               <div>
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
               </div>
               <div className="mediaQuery">
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
                 <News
                   text="Lorem ipsum  dolor sit consectetur."
-                  imageUrl="{img}"
+                  imageUrl={img}
                 />
               </div>
             </div>

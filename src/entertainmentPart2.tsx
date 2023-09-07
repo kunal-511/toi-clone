@@ -4,38 +4,39 @@ import News2 from "./News2";
 import News from "./news";
 import InFocus from "./infocus";
 import Bulletin from "./bulletin";
+import img from "./assets/news.png";
 const EntertainmentPart2: React.FC = () => {
   return (
     <>
       <div className="spotlight">
         <div className="top">
           <h3>lorem</h3>
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
         <div className="top">
           <h3>lorem</h3>
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
         <div className="top">
           <h3>lorem</h3>
-          <News text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+          <News text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
       </div>
       <section className="entertainmentPart2">
         <div className="container">
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img}/>
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
         <div className="container">
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
         <div className="container">
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
-        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl="{img}" />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
+        <News2 text="Lorem ipsum  dolor sit consectetur." imageUrl={img} />
         </div>
       </section>
       <section className="horizontalContainer">
