@@ -1,0 +1,30 @@
+.inFocus {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  ul {
+    display: flex;
+    gap: 20px;
+    li {
+      text-transform: uppercase;
+      background-color: rgb(236, 234, 234);
+      padding: 0.4rem;
+      border: 1px solid grey;
+      border-radius: 14px;
+
+      font-size: small;
+    }
+    li:nth-child(1) {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inFocus ul {
+    overflow-x: auto;
+  }
+}

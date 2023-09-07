@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+ul {
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+}
+img {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.plus {
+  font-size: 1rem;
+}
+.red {
+  color: crimson;
+}
+.bold {
+  font-weight: bolder;
+}
+.dotted-line {
+  border-bottom: 1px dotted #000;
+  width: 100%;
+  margin: 8px 0;
+}
+.double-line {
+  margin: 0 1.5rem;
+  margin-top: 25px;
+  .dotted-line {
+    border-bottom: 1px dotted #000;
+    width: 100%;
+    margin: 2px 0;
+  }
+}
+

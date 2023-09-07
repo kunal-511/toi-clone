@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  gap: 10px;
+}
+Footer {
+  padding: 0 3rem;
+  margin-top: 20px;
+}
+.footerColumns {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  gap: 20px;
+  line-height: 1.5rem;
+}
+.footerImage {
+  width: 20vw;
+}
+.footerItems {
+  display: flex;
+  gap: 40px;
+}
+.thick-line {
+  border-bottom: 2px solid #000;
+  width: 100%;
+  margin: 8px 0;
+  margin: 2rem 1.5rem;
+}
+.center {
+  text-align: center;
+  padding: 14px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    .footerImage {
+      width: 100%;
+    }
+    .footerColumns {
+      width: 100%;
+    }
+  }
+}

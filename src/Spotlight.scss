@@ -1,0 +1,22 @@
+.spotlight {
+  margin: 0 1.5rem;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    p {
+      display: none;
+    }
+    img {
+      width: 30vw;
+      height: 24vh;
+      border-radius: 6px;
+    }
+  }
+}
+.spotlightHead {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+}

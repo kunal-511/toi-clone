@@ -1,0 +1,47 @@
+.VStories {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow-x: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stories {
+  position: relative;
+  overflow: hidden;
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    background-color: white;
+    border-top-left-radius: 6px;
+    margin-left: 15px;
+    padding: 8px;
+    font-size: 1.2rem;
+  }
+  img {
+    height: 60vh;
+    width: 18vw;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .stories {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (max-width: 500px) {
+  .stories {
+    img {
+      height: 40vw;
+      width: 20vw;
+    }
+  }
+}

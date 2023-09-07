@@ -1,0 +1,245 @@
+.mainNews {
+  margin: 0 1.5rem;
+  // background-color: pink;
+  margin-top: 20px;
+  display: flex;
+  .vertical-line {
+    height: 186vh;
+  }
+  .image-container {
+    position: relative;
+
+    .image-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #fff;
+      padding: 8px;
+
+      font-size: 1.5rem;
+    }
+  }
+}
+.column1 {
+  width: 40%;
+  // background-color: yellow;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  section {
+    width: 50%;
+
+    div {
+      display: flex;
+      margin-bottom: 15px;
+      // border: 1px solid black;
+    }
+    img {
+      border-radius: 4px;
+      width: 8vw;
+      gap: 10px;
+    }
+  }
+}
+
+main {
+  margin-top: 20px;
+  // background-color: cyan;
+  display: flex;
+  gap: 10px;
+}
+
+.img {
+  border-radius: 5px;
+  width: 35vw;
+  height: auto;
+}
+.column2 {
+  width: 20%;
+  // background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+
+  img {
+    border-radius: 4px;
+    width: 8vw;
+  }
+  div {
+    display: flex;
+    margin-bottom: 15px;
+    // border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 12px;
+
+    p {
+      order: 2;
+    }
+
+    img {
+      order: 1;
+      width: 12vw;
+    }
+  }
+}
+.column3 {
+  width: 40%;
+
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  .toiPremium {
+    // background-color: rgb(249, 165, 165);
+    width: 32vw;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 0 1rem;
+    background-color: rgb(252, 226, 226);
+
+    img {
+      border-radius: 4px;
+      width: 8vw;
+      height: 10vh;
+    }
+    h2 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      .rightArrow {
+        font-size: 0.8rem;
+        margin: 3px;
+      }
+    }
+
+    div:nth-child(1) {
+      justify-content: space-between;
+    }
+    div {
+      display: flex;
+      margin-bottom: 10px;
+      // border: 1px solid black;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .bulletin {
+    padding: 0 2rem;
+    // border: 2px solid black;
+    line-height: 1.5rem;
+    margin: 15px 0;
+    width: 40vw;
+
+    ul {
+      // border: 1px solid red;
+      li {
+        list-style: circle;
+      }
+    }
+  }
+}
+.trendingNews {
+  margin: 0 1.5rem;
+  // background-color: darkturquoise;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    justify-content: space-between;
+    li:not(:first-child) {
+      background-color: rgb(236, 234, 234);
+      padding: 0.6rem;
+      border: 1px solid rgb(236, 234, 234);
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .toiPremium div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column1 section {
+    width: 100%;
+  }
+  .column1 section img {
+    width: 10vw;
+  }
+  .mainNews {
+    flex-direction: column;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .image-container {
+    width: 100%;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+  .column2 {
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    max-width: none;
+  }
+  .column2 div img {
+    width: 18vw;
+  }
+  .column3 {
+    width: 100%;
+  }
+  .column3 .toiPremium {
+    width: 80vw;
+  }
+  .column3 .advertisement {
+    width: 50vw;
+  }
+  .column3 .bulletin {
+    width: 80vw;
+  }
+  .trendingNews {
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .image-container {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (max-width: 400px) {
+  .toiPremium {
+    div {
+      img {
+        width: 15vw;
+      }
+    }
+  }
+}

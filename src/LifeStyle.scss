@@ -1,0 +1,42 @@
+.lifestyle {
+  display: flex;
+}
+.main {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+}
+.health {
+  width: 33%;
+  margin-top: 15px;
+}
+.healthImg {
+  width: 20vw;
+  border-radius: 5px;
+}
+.healthNews {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .healthNews {
+    flex-wrap: wrap;
+  }
+  .lifestyle {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .healthNews {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .healthImg {
+    width: 24vw;
+  }
+}

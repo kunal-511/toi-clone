@@ -1,0 +1,35 @@
+.row {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+  div {
+    display: flex;
+    margin-top: 15px;
+
+    div {
+      flex-direction: column;
+      img {
+        width: 14vw;
+        border-radius: 4px;
+        order: 1;
+        margin-bottom: 8px;
+      }
+      p {
+        order: 2;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    div {
+      flex-wrap: wrap;
+      gap: 20px;
+      div {
+        img {
+          width: 20vw;
+        }
+      }
+    }
+  }
+}

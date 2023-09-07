@@ -1,0 +1,70 @@
+
+.mainBanner{
+   
+  img{
+   &:hover{
+      transform: none;
+   }
+  }
+     
+ div{
+ display: flex;   
+ justify-content: space-between;
+ margin:0 1.5rem ;
+ margin-top: 5px;
+ align-items: center;
+ 
+
+ button{
+    cursor: pointer;
+    text-transform: uppercase;
+ }
+ .subscribe{
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    width: 11vw;
+    padding: 0.3rem;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    margin: 0px 6px;
+    display: flex;
+    
+
+ }
+ .signIn{
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 1rem;
+    margin-right: 1.125rem;
+ }
+.CiFacebook{
+    color: blue;
+ font-size: 1.4rem;
+ margin-right: 4px;
+ cursor: pointer;
+}
+.CiTwiiter{
+   color: lightblue;
+font-size: 1.4rem;
+margin-right: 4px;
+cursor: pointer;
+}
+.CiYoutube{
+   color: crimson;
+font-size: 1.4rem;
+margin-right: 4px;
+cursor: pointer;
+}
+ }
+
+}
+.mainHeading{
+   width: 100vw;
+}
+.date{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}

@@ -1,0 +1,137 @@
+.entertainment {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+}
+.entertainmentHead {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  .rightArrow {
+    font-size: 1rem;
+  }
+}
+
+.column {
+  width: 33%;
+}
+main {
+  display: flex;
+  .vertical-line {
+    height: 116vh;
+  }
+  .column {
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      img {
+        border-radius: 4px;
+        width: 6vw;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+.bulletin {
+  padding: 0 2rem;
+  // border: 2px solid black;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  ul {
+    // border: 1px solid red;
+    li {
+      list-style: circle;
+    }
+    li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3) {
+      display: none;
+    }
+  }
+}
+.column {
+  h3 {
+    font-size: 1.1rem;
+    cursor: pointer;
+    .rightArrow {
+      font-size: 0.8rem;
+    }
+  }
+}
+.etimesPhotos {
+  display: flex;
+  padding: 0 1rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+
+      padding-right: 5px;
+      img {
+        width: 7vw;
+        height: 12vh;
+        order: 1;
+      }
+      p {
+        margin-top: 10px;
+        order: 2;
+      }
+    }
+  }
+}
+.column {
+  .image-container {
+    position: relative;
+    .img {
+      width: 30vw;
+      border-radius: 6px;
+      height: 34vh;
+    }
+    .image-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-weight: bolder;
+      color: white;
+      padding: 8px;
+
+      font-size: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .etimesPhotos .mediaQuery div {
+    display: none;
+  }
+  .etimesPhotos {
+    flex-wrap: wrap;
+  }
+  .entertainment main {
+    flex-direction: column;
+  }
+  .entertainment main .column {
+    width: 100%;
+  }
+  .advertisement {
+    width: 50vw;
+  }
+  .column .image-container .img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .etimesPhotos div {
+    gap: 0px;
+  }
+}
